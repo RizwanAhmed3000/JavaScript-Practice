@@ -391,7 +391,7 @@ alert("Happy Coding");*/
 //     alert("Bingo! Correct Answer");
 // }else if(guessedNumber == ++secretNumber){
 //     alert("Close enough to the correct answer");
-// }else if(guessedNumber == --secretNumber){
+// }else if(guessedNumber == (secretNumber-=2)){
 //     alert("Close enough to the correct answer");
 // }else{
 //     alert("You Lose! Try again");
