@@ -519,3 +519,135 @@ alert("Happy Coding");*/
 //     alert("Good Night!");
 // }
 //-----------------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx------------------------------------------------//
+
+//CHAPTER 13-15 ARRAY
+//--------------------------------------------------------------------------------------------------//
+// Question 01
+// var emptyArray = [];
+
+//Question 02
+// var emptyArray = new Array();
+
+//Question 03
+// var stringArray = ["Ali", "Ahmed", "Rizwan"];
+
+//Question 04
+// var numberArray = [1, 2, 3, 4, 56];
+
+//Question 05
+// var booleanArray = [true, false];
+
+//Question 06
+// var mixedArray = ["Rizwan", 20, true];
+
+//Question 07
+// var qualificationInPakistan = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD"];
+// document.write(`Qualification:`);
+// document.write(`</br>1) ${qualificationInPakistan[0]}`);
+// document.write(`</br>2) ${qualificationInPakistan[1]}`);
+// document.write(`</br>3) ${qualificationInPakistan[2]}`);
+// document.write(`</br>4) ${qualificationInPakistan[3]}`);
+// document.write(`</br>5) ${qualificationInPakistan[4]}`);
+// document.write(`</br>6) ${qualificationInPakistan[5]}`);
+// document.write(`</br>7) ${qualificationInPakistan[6]}`);
+// document.write(`</br>8) ${qualificationInPakistan[7]}`);
+
+//Question 08
+// var studentName = ["Michael", "John", "Tony"];
+// var score = [320, 230, 480];
+// var percentage1 = (score[0] / 500) * 100;
+// var percentage2 = (score[1] / 500) * 100;
+// var percentage3 = (score[2] / 500) * 100;
+// document.write(`Score of ${studentName[0]} is ${score[0]}. Percentage is ${percentage1}%`);
+// document.write(`</br>Score of ${studentName[1]} is ${score[1]}. Percentage is ${percentage2}%`);
+// document.write(`</br>Score of ${studentName[2]} is ${score[2]}. Percentage is ${percentage3}%`);
+
+//-----------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx------------------------------------------//
+
+//CHAPTER 34-35 FUNCTIONS
+//-------------------------------------------------------------------------------------------------------------------//
+
+//Question 01
+// function displayDateAndTime() {
+//     var date = new Date();
+//     var dateInString = date.toDateString();
+//     var time = date.toLocaleTimeString();
+//     document.write(`Date: ${dateInString}`);
+//     document.write(`</br>Time: ${time}`);
+// }
+
+// displayDateAndTime();
+
+//Question 02
+// function greetUser(){
+//     var firstName = prompt("Enter your First name:");
+//     var lastName = prompt("Enter your last name:");
+//     return `Greetings! ${firstName} ${lastName}`;
+// }
+// alert(greetUser());
+
+//Question 03
+// function addTwoNum(){
+//     var num1 = +prompt("Enter first number: ");
+//     var num2 = +prompt("Enter second number: ");
+//     return num1 + num2;
+// }
+
+// alert(addTwoNum());
+
+//Question 04
+// function calculator(num1, num2, operator){
+//     if(operator === "+"){
+//         return num1 + num2;
+//     }else if(operator === "-"){
+//         return num1 - num2;
+//     }else if(operator === "*"){
+//         return num1 * num2;
+//     }else if(operator === "/"){
+//         return num1 / num2;
+//     }else if(operator === "%"){
+//         return num1 % num2;
+//     }
+// }
+
+// var num1 = +prompt("Enter first number: ");
+// var num2 = +prompt("Enter second number: ");
+// var operator = prompt("Which operation you want to perfor?");
+
+// document.write(`The result is: ${calculator(num1, num2, operator)}`);
+
+//Question 05
+// function square(number){
+//     return number * number;
+// }
+
+// var number = +prompt("Enter the number: ");
+// document.write(`The square of ${number} is ${square(number)}`);
+
+//Question 08
+// function calculateHypotenuse(base, perpendicular){
+//     perpendicular = calculateSquare(perpendicular);
+//     base = calculateSquare(base);
+//     var hypotenuse = base + perpendicular;
+//     return hypotenuse;
+//     function calculateSquare(a){
+//         return a * a
+//     }
+// }
+
+// var base = +prompt("Enter the base:");
+// var perpendicular = +prompt("Enter the perpendicular:");
+
+// console.log(`The hypotenuse is: ${calculateHypotenuse(base, perpendicular)}`);
+
+//Question 09
+// function areaOfRectangle(width, height){
+//     var area = width * height;
+//     return area;
+// }
+
+// alert(`area of rectangle is: ${areaOfRectangle(5, 6)}`);
+// var width = +prompt("Enter the width:");
+// var height = +prompt("Enter the height:");
+// alert(`area of rectangle is: ${areaOfRectangle(width, height)}`);
+
