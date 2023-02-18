@@ -562,6 +562,108 @@ alert("Happy Coding");*/
 // document.write(`</br>Score of ${studentName[1]} is ${score[1]}. Percentage is ${percentage2}%`);
 // document.write(`</br>Score of ${studentName[2]} is ${score[2]}. Percentage is ${percentage3}%`);
 
+//Question 09
+// var colorName = ["black", "gray"];
+// document.write(colorName);
+
+// var userColorInput = prompt("Which color you want to add in start of array?");
+// colorName.unshift(userColorInput);
+// document.write(`</br> ${colorName}`);
+
+// var userColorInputEnd = prompt("Which color you want to add in end of array?");
+// colorName.push(userColorInputEnd);
+// document.write(`</br> ${colorName}`);
+
+// colorName.unshift("purple", "orange");
+// document.write(`</br> ${colorName}`);
+
+// colorName.shift();
+// document.write(`</br> ${colorName}`);
+
+// colorName.pop();
+// document.write(`</br> ${colorName}`);
+
+// var colorNameAtIndex = prompt("Which color you want to add?");
+// var colorAtIndex = +prompt("At which index you want to add color?");
+// colorName[colorAtIndex] = colorNameAtIndex;
+// document.write(`</br> ${colorName}`);
+
+// var removedColorIndex = +prompt("At which index you want to delete the color?");
+// var numberOfRemovedColor = +prompt("How many you want to remove?");
+
+// colorName.splice(removedColorIndex, numberOfRemovedColor);
+// document.write(`</br> ${colorName}`);
+
+//Question 10
+// var studentScore = [30,45,70,20,44,81,56, 74, 56];
+// document.write(studentScore);
+// studentScore.sort(function(a,b){
+//     return a-b;
+// })
+
+// document.write(`<br> ${studentScore}`);
+
+//Question 11
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar", "Sialkot"];
+// document.write("Citie List:");
+// document.write(`</br> ${cities}`);
+
+// var selectedCities = cities.slice(2,4);
+// document.write(`<br>Selected Cities:`);
+// document.write(`<br>${selectedCities}`);
+
+//Question 12
+// var array = ["This", "is", "my", "Cat"];
+// document.write(`Array:`);
+// document.write(`<br>${array}`);
+// var string = array.join(" ");
+// document.write(`<br>String:`);
+// document.write(`<br>${string}`);
+
+//Question 13
+// var devices = [];
+// devices[0] = "Keyboard";
+// devices[1] = "Mouse";
+// devices[2] = "Printer";
+// devices[3] = "Monitor";
+
+// document.write(`Devices:<br>${devices}`);
+
+// var removed = devices.shift();
+// document.write(`<br>Out:<br>${removed}`);
+// var removed = devices.shift();
+// document.write(`<br>Out:<br>${removed}`);
+// var removed = devices.shift();
+// document.write(`<br>Out:<br>${removed}`);
+// var removed = devices.shift();
+// document.write(`<br>Out:<br>${removed}`);
+
+//Question 14
+// var devices = [];
+// devices[0] = "Keyboard";
+// devices[1] = "Mouse";
+// devices[2] = "Printer";
+// devices[3] = "Monitor";
+
+// document.write(`Devices:<br>${devices}`);
+
+// var removed = devices.pop();
+// document.write(`<br>Out:<br>${removed}`);
+// var removed = devices.pop();
+// document.write(`<br>Out:<br>${removed}`);
+// var removed = devices.pop();
+// document.write(`<br>Out:<br>${removed}`);
+// var removed = devices.pop();
+// document.write(`<br>Out:<br>${removed}`);
+
+//Question 15
+// var phoneManufacturers = ["Apple", "Samsung", "Sony", "Motorola", "LG", "Google"];
+// document.getElementById("apple").innerHTML = phoneManufacturers[0];
+// document.getElementById("samsung").innerHTML = phoneManufacturers[1];
+// document.getElementById("sony").innerHTML = phoneManufacturers[2];
+// document.getElementById("motorola").innerHTML = phoneManufacturers[3];
+// document.getElementById("lg").innerHTML = phoneManufacturers[4];
+// document.getElementById("google").innerHTML = phoneManufacturers[5];
 //-----------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx------------------------------------------//
 
 //CHAPTER 34-35 FUNCTIONS
@@ -651,3 +753,19 @@ alert("Happy Coding");*/
 // var height = +prompt("Enter the height:");
 // alert(`area of rectangle is: ${areaOfRectangle(width, height)}`);
 
+//Question 14
+// function calcCircumference(radius){
+//     var circumference = 2 * 3.142 * radius;
+//     return circumference;
+// }
+// function calcArea(radius){
+//     var area = 3.142 * (radius * radius);
+//     return area;
+// }
+// var inputRadius = +prompt("Enter the radius:");
+// document.write(`The circumference is ${calcCircumference(inputRadius)}`);
+// document.write(`<br>The area is ${calcArea(inputRadius)}`);
+
+// let x = 5;
+// let y = "5";
+// console.log(x != y, x !== y);
