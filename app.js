@@ -769,3 +769,108 @@ alert("Happy Coding");*/
 // let x = 5;
 // let y = "5";
 // console.log(x != y, x !== y);
+
+//-------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx----------------------------------------------//
+
+// CHAPTER 17-20
+//------------------------------------------------------------------------------------------------------------------------------------//
+
+// Question 01
+// var multidimensionalArray = [[],[[],[],[]]];
+
+//Question 02
+// var multidimensionalArray = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// document.write(multidimensionalArray[0].join(" "));
+// document.write(`<br>${multidimensionalArray[1].join(" ")}`);
+// document.write(`<br>${multidimensionalArray[2].join(" ")}`);
+
+//Question 03
+// for(var i = 1; i <= 10; i++){
+//     document.write(`${i} <br>`);
+// }
+
+//Question 04
+// var inputTableNumber = +prompt("Enter the number:");
+// var inputNumberOfTimes = +prompt("How many times you want it to run?");
+
+// for(var i = 1; i <= inputNumberOfTimes; i++){
+//     document.write(`${inputTableNumber} x ${i} = ${inputTableNumber * i}<br>`);
+// }
+
+//Question 05
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+// for(var i = 0; i < fruits.length; i++){
+//     document.write(`${fruits[i]} <br>`);
+// }
+// for(var i = 0; i < fruits.length; i++){
+//     document.write(`Element at index ${i} is ${fruits[i]} <br>`);
+// }
+
+//Question 06
+// document.write(`Counting: <br>`);
+// for(var i = 1; i <= 15; i++){
+//     document.write(`${i}, `);
+// }
+// document.write(`<br>Reverse Counting: <br>`);
+// for(var a = 10; a > 0; a--){
+//     document.write(`${a}, `); 
+// }
+// document.write(`<br>Even Counting: <br>`);
+// for(var b = 0; b <= 20; b+=2){
+//     document.write(`${b}, `)
+// }
+// document.write(`<br>Odd Counting: <br>`);
+// for(var c = 1; c <= 20; c+=2){
+//     document.write(`${c}, `)
+// }
+// document.write(`<br>series Counting: <br>`);
+// for(var b = 0; b <= 20; b+=2){
+//     document.write(`${b}k, `)
+// }
+
+//Question 07
+// var bakeryItems = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInputItem = prompt("Welcome to my Bakery! What can I get you?");
+// var flag;
+// var indexNumber;
+// for(var i = 0; i < bakeryItems.length; i++){
+//     if(userInputItem === bakeryItems[i]){
+//         flag = true;
+//         indexNumber = i;
+//     }
+// }
+// if(flag){
+//     alert(`${userInputItem} is available at index ${indexNumber} in our Bakery`);
+// }else{
+//     alert(`We are sorry, ${userInputItem} is not available in our bakery`);
+// }
+
+//Question 08
+// var array = [24, 53, 78, 91, 12];
+// var largeNumber = array[0];
+// for(var i = 0; i < array.length; i++){
+//     if(largeNumber < array[i] ){
+//         largeNumber = array[i];
+//     }
+// }
+// document.write(`Array Items: ${array}`);
+// document.write(`<br>The lagrest number in array: ${largeNumber}`);
+
+//Question 09
+// var array = [24, 53, 78, 91, 114];
+// var smallestNumber = array[0];
+// for(var i = 0; i < array.length; i++){
+//     if(smallestNumber > array[i]){
+//         smallestNumber = array[i];
+//     }
+// }
+// document.write(`Array Items: ${array}`);
+// document.write(`<br>The smallest number in array: ${smallestNumber}`);
+
+//Quetion 10
+// for(var i = 1; i <= 100; i++){
+//     if(i % 5 == 0){
+//         document.write(`${i}, `);
+//     }
+// }
