@@ -874,3 +874,67 @@ alert("Happy Coding");*/
 //         document.write(`${i}, `);
 //     }
 // }
+
+//-----------------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx----------------------------------------//
+
+//CHAPTER 21 -25
+//-------------------------------------------------------------------------------------------------------------------------------------//
+//Question 01
+// var firstName = prompt("Enter your first name:");
+// var lastName = prompt("Enter your last name:");
+// var fullName = (`${firstName} ${lastName}`);
+// alert (`Welcome ${fullName}`);
+
+//Question 02
+// var userInput = prompt('Enter your favourite mobile phone model:');
+// var string = userInput.length;
+// console.log(string)
+// document.write(`My favorite phone is: ${userInput}`);
+// document.write(`<br> Lenght of srting: ${string}`);
+
+//Question 03
+// var string = "Pakistani";
+// document.write(`String: ${string}`);
+// document.write(`<br> Index of 'n': ${string.indexOf('n')}`);
+
+//Question 04
+// var string = "Hello World";
+// document.write(`String: ${string}`);
+// document.write(`<br> Index of 'n': ${string.lastIndexOf('l')}`);
+
+//Question 05
+// var string = "Pakistani";
+// document.write(`String: ${string}`);
+// document.write(`<br> char at 3: ${string.charAt(3)}`);
+
+//Question 06
+// var firstName = prompt("Enter your first name:");
+// var lastName = prompt("Enter your last name:");
+// var fullName = firstName.concat(lastName);
+// alert (`Welcome ${fullName}`);
+
+//Question 07
+// var city1 = 'Hyderabad';  
+// var city2 = city1.replace('Hyder', 'Islam');
+// document.write(`City: ${city1}`);  
+// document.write(`<br>After replacement: ${city2}`);  
+
+//Question 08
+// var message = "Ali and Sami are best friends. They play cricket and football together."
+// var replace = message.replace(/and/g , '&');
+// document.write(message);
+// document.write(`<br>${replace}`);
+
+//Question 09
+// var value = "472";
+// document.write(`Value: ${value}`);
+// document.write(`<br>type: ${typeof value}`);
+// document.write(`<br>value: ${+value}`);
+// document.write(`<br>Type: ${typeof +value}`);
+
+//Question 10
+// var userInput = prompt("Enter any thing:");
+// document.write(`User input: ${userInput}`);
+// document.write(`<br>upper case: ${userInput.toUpperCase()}`);
+
+//Question 11
