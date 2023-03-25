@@ -938,3 +938,119 @@ alert("Happy Coding");*/
 // document.write(`<br>upper case: ${userInput.toUpperCase()}`);
 
 //Question 11
+// var userInput = prompt("Enter your name:");
+// var firstChar = userInput.charAt(0).toUpperCase();
+// var otherChar = userInput.slice(1).toLowerCase();
+// var newWord = firstChar + otherChar;
+// console.log(newWord);
+
+//Question 12
+// var num = 35.36;
+// var string = num.toString();
+// var removeDecimal = string.replace('.', '');
+// document.write(`Number = ${num}`);
+// document.write(`<br>result = ${removeDecimal}`);
+
+//Question 13
+// var userInput = prompt("Enter the username");
+// var invalidChar = ['@', '.', ',', '!'];
+// for(i=0; i < invalidChar.length; i++){
+//     if(userInput.includes(invalidChar[i])){
+//         alert("Invalid Username");
+//         break;
+//     }
+// }
+
+//Question 14
+// var bakeryItems = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("what item do you want?");
+// var userChar = userInput.toLowerCase();
+// var flag;
+// var indexNumber;
+// for(var i = 0; i < bakeryItems.length; i++){
+//     if(userChar === bakeryItems[i]){
+//         flag = true;
+//         indexNumber = i;
+//     }
+// }
+// if(flag){
+//     alert(`${userChar} is available at index ${indexNumber} in our Bakery`);
+// }else{
+//     alert(`We are sorry, ${userChar} is not available in our bakery`);
+// }
+
+//Question 15
+// var password = prompt("Enter the password:");
+// for(i= 0; i < password.length; i++){
+//     if(password.length < 6){
+//         alert("password should be mor than 6 character long");
+//     }else if(){
+
+//     }
+// }
+
+//Question 16
+// var university = "University of Karachi";
+// for(i=0; i < university.length; i++){
+//     document.write(`${university[i]} <br>`)
+// }
+
+//Question 17
+// var string = prompt("enter word");
+// var lastChar = string.charAt(string.length - 1);
+// document.write(`Word: ${string} <br>`);
+// document.write(`last char: ${lastChar} <br>`);
+
+//Question 18
+// var para = "The quick brown fox jumps over the lazy dog";
+// var wordCount = 0;
+// var wordSplit = para.split(" ");
+// for(i=0; i < wordSplit.length; i++){
+//     if(wordSplit[i].toLowerCase() === "the"){
+//         wordCount++;
+//     }
+// }
+// document.write(`${para} <br>`)
+// document.write(`The word "the" has occured ${wordCount} time in the above sentence`)
+
+//---------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-------------------------------------//
+
+//CHAPTER 26-30
+//---------------------------------------------------------------------------------------------------------------------//
+
+//Question 1
+// var num = +prompt("Enter a number");
+// document.write(`number: ${num} <br>`);
+// document.write(`Round of number: ${Math.round(num)} <br>`);
+// document.write(`floor of number: ${Math.floor(num)} <br>`);
+// document.write(`ceil of number: ${Math.ceil(num)} <br>`);
+
+//Question 2
+// var num = +prompt("Enter a number");
+// document.write(`number: ${num} <br>`);
+// document.write(`Round of number: ${Math.round(num)} <br>`);
+// document.write(`floor of number: ${Math.floor(num)} <br>`);
+// document.write(`ceil of number: ${Math.ceil(num)} <br>`);
+
+//Question 4
+// var diceNum = Math.ceil(Math.random()*6);
+// document.write(`Random dice value: ${diceNum}`)
+
+//Question 5
+// var coin = Math.ceil(Math.random()*2);
+// document.write(`Random coin value: ${coin}`)
+
+//Question 6
+// var randomNum = Math.ceil(Math.random()*100);
+// document.write(`Random number between 1 to 100: ${randomNum}`)
+
+//Question 8
+// var randomNum = Math.ceil(Math.random()*10);
+// var userGuess = +prompt("Guess a number");
+// if(userGuess === randomNum){
+//     alert("You guess correct");
+// }else{
+//     alert("Try again")
+// }
+
+//----------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx----------------------------------------------------//
