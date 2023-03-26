@@ -1054,3 +1054,72 @@ alert("Happy Coding");*/
 // }
 
 //----------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx----------------------------------------------------//
+
+//CHAPTER 31-34
+//-------------------------------------------------------------------------------------------------------------------------------------------------//
+
+//Question 1
+// var currentDate = new Date();
+// document.write(currentDate);
+
+//Question 2
+// var currentDate = new Date();
+// var month = currentDate.getMonth();
+// var monthsName = ["jan", 'feb', 'march', 'April', 'may', 'June', 'July', 'Aug', 'sep', 'oct', 'nov', 'dec'];
+// var currentMonthName = monthsName[month];
+// document.write(`Current month is ${currentMonthName}`);
+
+//Question 3
+// var currentDate = new Date();
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var today = currentDate.getDay();
+// var nameOfDay = dayNames[today];
+// alert(`today is ${nameOfDay}`);
+
+//Queston 4
+// var currentDate = new Date();
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// var today = currentDate.getDay();
+// var nameOfDay = dayNames[today];
+// if(nameOfDay == "Sun" || nameOfDay == "Sat"){
+//     alert(`It is a fun day`);
+// }else{
+//     alert(`Today is ${nameOfDay}`);
+// }
+
+//Question 5
+// var currentDate = new Date();
+// var date = currentDate.getDate();
+// if(date <= 15){
+//     alert("First 15 days of the month")
+// }else{
+//     alert('Last days of the month');
+// }
+
+//Question 6
+// var currentDate = new Date();
+// var pastDate = new Date("January 1, 1970");
+// var msCurrentDate = currentDate.getTime();
+// var msPastDate = pastDate.getTime();
+// var difference = msCurrentDate - msPastDate;
+// document.write(`Current time: ${currentDate}<br>`);
+// document.write(`Past time in MS: ${difference}<br>`);
+// document.write(`Past time in Min: ${(difference)/(1000 * 60)}<br>`);
+
+//Question 7
+// var currentDate = new Date();
+// var currentTimeInHours = currentDate.getHours();
+// console.log(currentTimeInHours)
+// if(currentTimeInHours > 12){
+//     alert(`Its PM`);
+// }else{
+//     alert(`Its AM`)
+// }
+
+//Question 8
+// var ramadan2015 = new Date("June 18, 2015");
+// var currentDate = new Date();
+// var difference = currentDate.getTime() - ramadan2015.getTime();
+// var dayConversion = Math.floor(difference / (1000 * 3600 * 24));
+// alert(`${dayConversion} days have past since first ramadan , 2015`);
+
