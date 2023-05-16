@@ -11,7 +11,7 @@
 
 
 // myFunction(myFunction2);
-  
+
 
 
 
@@ -105,4 +105,105 @@
 // console.log(sumOfTwoLargestNum(number))
 
 //-------------------------------------------------------------------------------------------------------------------------------//
+
+//Question 4
+
+//Write a function that takes an array of strings as input and returns a new array that contains only the strings that have more than three characters.
+
+// function filteredString(arr){
+//    var filteredArray =  arr.filter((item)=>{
+//     return item.length > 3
+// })
+// console.log(filteredArray)
+// }
+
+// const arr = ["hi", "hello", "hey", "howdy",'asd']
+// filteredString(arr)
+
+//-------------------------------------------------------------------------------------------------------------------------//
+
+//Question 5
+
+// Write a function that takes an array of numbers as input and returns a new array that contains only the even numbers.
+
+// const numbers = [1,2,3,4,5,6,7,8,9,10,88]
+
+// let filteredArray = numbers.filter((num)=>{
+//     return num % 2 === 0
+// })
+
+// console.log(filteredArray)
+
+//----------------------------------------------------------------------------------------------------------------------//
+
+//Question 6
+
+// let arrayOfObj = [{name: "John", age: 30}, {name: "Jane", age: 25}]
+
+// function returnKeyValue(arr, key){
+//     let filteredArray = arr.map((item)=>{
+//         return item[key]
+//     })
+//     console.log(filteredArray)
+// }
+
+// returnKeyValue(arrayOfObj, "name")
+
+//--------------------------------------------------------------------------------------------------------------------//
+
+//Question 7
+
+// Write a function that takes a string as input and returns true if the string is a palindrome (reads the same backwards as forwards), and false otherwise.
+
+// function isPlaindrome(value){
+//     let reverseString = ""
+//     for(i = value.length - 1; i >= 0; i--){
+//         reverseString = reverseString + value[i]
+//     }
+//     if(reverseString === value){
+//         console.log(true)
+//     }else{
+//         console.log(false)
+//     }
+// }
+
+// let string = "racecar"
+// isPlaindrome(string)
+
+//----------------------------------------------------------------------------------------------//
+
+//Question 8
+
+// Write a function that takes an array of strings as input and returns a new array that contains the length of each string in the original array.
+
+// let string = ["hi", "hello", "hey", "howdy"]
+
+// function stringLength(arr) {
+//     let strLength = arr.map((str) => {
+//         return str.length
+//     })
+//     console.log(strLength)
+// }
+
+// stringLength(string)
+
+//----------------------------------------------------------------------------------------------------//
+
+//Question 9
+
+//Write a function that takes an array of numbers as input and returns the index of the first number in the array that is greater than or equal to 10.
+
+// let numbers = [1, 5,3, 15, 20]
+
+// function firstGreater(arr){
+//     for(i = 0; i < arr.length; i++){
+//         if(arr[i] > 10){
+//             return i
+//         }
+//     }
+// }
+
+// console.log(firstGreater(numbers))
+
+//---------------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-----------------------------------------------//
 
